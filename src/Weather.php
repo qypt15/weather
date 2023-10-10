@@ -48,9 +48,6 @@ class Weather
         return new Client($this->guzzleOptions);
     }
 
-    /**
-     * @param array $options
-     */
     public function setGuzzleOptions(array $options)
     {
         $this->guzzleOptions = $options;
